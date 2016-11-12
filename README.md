@@ -15,3 +15,9 @@ Before use this code, you need create an account on https://smsgateway.me and ad
     Tania Narvaez,88888882
 
 Remember change message on line 21.
+
+## How to?
+    $ git clone https://github.com/ChocoyoLabs/bulk-sms-example.git
+    $ cd bulk-sms-example
+    $ npm install
+    $ node app.js
