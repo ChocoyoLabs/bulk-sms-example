@@ -1,0 +1,17 @@
+{
+  "name": "bulk-sms-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Send SMS to a list of mobile numbers in a CSV file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paulo McNally <paulo.mcnally@chocoyolabs.com>",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "1.1.7",
+    "dotenv": "2.0.0",
+    "smsgateway": "0.1.2"
+  }
+}
