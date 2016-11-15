@@ -18,7 +18,7 @@ parse(csvOut, (err, output) => {
     // each items/lines
     output.forEach((item) => {
       let firstName = item[0].split(' ')[0];
-      let message = `Hola ${firstName}, hoy a las 1pm te esperamos para el #ProgramaDeTalentosUCA - Laboratorio J-3 - Att: Chocoyo Labs`;
+      let message = `Hello ${firstName}, message - Att: Chocoyo Labs`;
       let number = item[1];
 
       // send SMS
@@ -29,5 +29,7 @@ parse(csvOut, (err, output) => {
           console.log('failed',errorMessage);
       });
     });
+  } else {
+    console.log('Invalid csv');
   }
 });
